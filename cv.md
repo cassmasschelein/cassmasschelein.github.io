@@ -40,10 +40,30 @@ Completed work on organic synthesis research with my project consultant Dr. Alex
 " %}
 
 ## Presentations
-Thesis and abstract
-Paul ayers and abstract
-Pillar thing and abstract
 
+# Modelling Opinion Dynamics in Complex Networks
+Little blurb here
+<details>
+  <summary>Abstract</summary>
+   
+   Opinion dynamics is the study of how groups of people in a society interact with one another and influence each other's opinions regarding some matter at hand. Applications of such models include marketing strategies and projecting political decisions. The classical approach to modelling these systems is using an agent-based system derived from statistical mechanics and updating opinions over repeated iterations. The current popular models for opinion dynamics are discrete in nature such that they only consider two possible opinions for each agent, and agents influence each other if they are close enough in proximity. However, continuous opinions are necessary to attribute to individuals a memory of past opinions. Incorporating these continuous aspects results in the continuous opinion discrete analysis function for updating opinions used in this thesis. Modelling a binary society is of great value because most important decisions come down to two choices -- whether it be the political party to lead, or the acceptance or dismissal of a consumer product. The traditional location based opinion models, however, are not an accurate representation of modern-day communication styles. With social media, our friends do not have to be our geographical neighbours. The result is a complex network of individuals and their influential relationships in a space where similarity among nodes is encoded as a hyperbolic distance measure. Throughout this thesis a novel tool is created for marrying the well-defined mathematical theory behind social network structure with classical opinion dynamics. This tool is proven to accurately retain the topological properties of social networks that give rise to their structure. Such a tool is very promising in understanding and forecasting how opinions formulate and change over time within a social network.
+</details>
+
+# Exploring the Driving Forces of Chemical Reactions in Order to Predict Mechanisms and Rates from First Principles
+Little blurb here
+<details>
+  <summary>Abstract</summary>
+   
+  For a long time, chemists have predicted the interactions between molecules based on their similarity to other, well understood structures. Being able to identify a suitable synthetic pathway based on chemical properties and interactions takes a certain level of expertise and years of experience. It is now possible to assist chemists in this process using models and machine learning techniques. This entails constructing a training set of molecules and reaction paths with information about bond order, electron affinity, ionization energy, and more for each individual pathway so that correlations are possible. This project explores the driving forces for chemical reactions, with emphasis on how electrons rearrange during the process of reaction. Focus is put on aromatic substitution reactions, trying to gain detailed insights into the Hammett parameters, and to model the reactions associated thereto. Throughout this project an exisiting transition state optimization algorithm is utilized which uses redundant internal coordinates to accurately predict the optimized transition structure. This method identifies key chemical coordinates between the reactants and product in order to make a prediction, such as those associated with bond-breaking and bond-forming during the reaction. This optimized transition structure is used in Gaussian 09 to compute IRCs of the entire reaction pathway, and then manipulated in python to gain more information about various geometries along the way. Longterm applications include being able to predict reaction mechanisms and rates from first principles without a detailed modelling of the entire reaction path.
+</details>
+
+# Synthesis of a Pillar[5]arene Derivative to Create a Chemical Sensor 
+Little blurb here
+<details>
+  <summary>Abstract</summary>
+   
+   From disease diagnostics to roadside measurement of impairment, there is a need for portable, affordable, and robust chemical sensors. The conducting nature of single-walled carbon nanotubes (SWNTs) has recently gained much attention for applications in sensors. Any signal generated from the chemical sensor can be recorded between two gold electrodes. The use of “click chemistry” allows us to produce receptor-functionalized SWNTs that can be made selective. This is achieved through strain-promoted alkyne-azide cycloaddition (SPAAC) of a pillar[5]arene derivative. Conjugated polymers interact strongly with SWNTs, allowing us to readily install chemiresistive sensors that respond to binding events with electron deficient guest molecules such as 1,6-dicyanohexane via host-guest chemistry with the pillar[5]arene. The pillar[5]arene is synthesized through a condensation reaction of 1,4-diethoxybenzene with paraformaldehyde, catalyzed by the Lewis acid boron trifluoride diethyl etherate. This is followed by removal of a single ethyl group using boron tribromide, liberating a hydroxyl-functionalized pillar[5]arene. This structure is then alkylated with 1,6-dibromohexane, and the remaining terminal bromide is substituted with sodium azide. This azide containing pillararene derivative will then be introduced to a dibenzocyclooctyne (DIBO)-containing polyinime to click together via SPAAC. This polyimine undergoes efficient assembly onto the surface of SWNTs through supramolecular interactions, creating a connection between the pillararene derivative and the carbon nanotubes. If the binding affinity of the host-guest chemistry is not degraded by structural modifications to the pillar[5]arene, proof-of-concept studies will be undertaken to show that interactions of SWNT-bound pillar[5]arenes with 1,6-dicyanohexane will lead to changes in thin-film conductivity of this material.
+</details>
 
 ## Awards and Distinctions
 
@@ -159,7 +179,6 @@ I was a volunteer for the Grahn Lab at the Brain and Mind Institute. I aided in 
 " %}
 
 ## Programming Skills
-
 {% include cv-item.html
     title="Programming Languages"
     content="
@@ -183,3 +202,4 @@ LaTeX
     content="
 Google BigQuery | Looker
 " %}
+
